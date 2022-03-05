@@ -7,5 +7,5 @@ bunnForm.addEventListener('submit', function (event) {
         alert("No name error.")
     }
     const output = document.getElementById("output")
-    output.textContent = username + "❤"
+    output.textContent = 'Thanks!'
 });
