@@ -22,7 +22,7 @@ module.exports = async function (context, req) {
         ext = "";
     }
 
-
+    // hi
     let responseMessage = await uploadFile(parsedBody, ext);
     context.res = {
         body: responseMessage
